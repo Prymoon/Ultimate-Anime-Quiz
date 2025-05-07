@@ -1,0 +1,106 @@
+/* Anime-specific Theme Styling */
+
+/* Naruto Theme */
+.theme-naruto {
+    --primary-color: #FF9800;
+    --secondary-color: #2196F3;
+    --accent-color: #FF5722;
+}
+
+.theme-naruto .background-container {
+    background-image: url('../assets/images/naruto-bg.jpg');
+}
+
+.theme-naruto .title {
+    font-family: 'Poppins', sans-serif;
+    color: #FF9800;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.theme-naruto .answer-btn:hover {
+    border-color: #FF9800;
+}
+
+/* One Piece Theme */
+.theme-one-piece {
+    --primary-color: #D32F2F;
+    --secondary-color: #FFD54F;
+    --accent-color: #1976D2;
+}
+
+.theme-one-piece .background-container {
+    background-image: url('../assets/images/one-piece-bg.jpg');
+}
+
+.theme-one-piece .title {
+    font-family: 'Poppins', sans-serif;
+    color: #D32F2F;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.theme-one-piece .answer-btn:hover {
+    border-color: #D32F2F;
+}
+
+/* Attack on Titan Theme */
+.theme-attack-on-titan {
+    --primary-color: #795548;
+    --secondary-color: #607D8B;
+    --accent-color: #8BC34A;
+}
+
+.theme-attack-on-titan .background-container {
+    background-image: url('../assets/images/aot-bg.jpg');
+}
+
+.theme-attack-on-titan .title {
+    font-family: 'Poppins', sans-serif;
+    color: #795548;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.theme-attack-on-titan .answer-btn:hover {
+    border-color: #795548;
+}
+
+/* Demon Slayer Theme */
+.theme-demon-slayer {
+    --primary-color: #673AB7;
+    --secondary-color: #FF5722;
+    --accent-color: #4CAF50;
+}
+
+.theme-demon-slayer .background-container {
+    background-image: url('../assets/images/demon-slayer-bg.jpg');
+}
+
+.theme-demon-slayer .title {
+    font-family: 'Poppins', sans-serif;
+    color: #673AB7;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.theme-demon-slayer .answer-btn:hover {
+    border-color: #673AB7;
+}
+
+/* Jujutsu Kaisen Theme */
+.theme-jujutsu-kaisen {
+    --primary-color: #303F9F;
+    --secondary-color: #E91E63;
+    --accent-color: #00BCD4;
+}
+
+.theme-jujutsu-kaisen .background-container {
+    background-image: url('../assets/images/jujutsu-bg.jpg');
+}
+
+.theme-jujutsu-kaisen .title {
+    font-family: 'Poppins', sans-serif;
+    color: #303F9F;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.theme-jujutsu-kaisen .answer-btn:hover {
+    border-color: #303F9F;
+}

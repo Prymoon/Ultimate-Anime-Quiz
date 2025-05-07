@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Anime Quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/themes.css">
+</head>
+<body>
+    <div class="background-container">
+        <div class="background-overlay"></div>
+    </div>
+
+    <div class="app-container">
+        <!-- Start Screen -->
+        <section class="screen" id="start-screen">
+            <h1 class="title">Ultimate Anime Quiz</h1>
+            <p class="subtitle">Test your knowledge across different anime universes!</p>
+            <button id="start-btn" class="btn primary-btn">Start Quiz</button>
+        </section>
+
+        <!-- Quiz Screen -->
+        <section class="screen hidden" id="quiz-screen">
+            <div class="quiz-header">
+                <div class="progress-container">
+                    <div class="progress-bar"></div>
+                </div>
+                <div class="quiz-info">
+                    <span id="current-anime" class="anime-badge">Anime Name</span>
+                    <span id="question-counter">Question 1/10</span>
+                </div>
+            </div>
+
+            <div class="question-container">
+                <h2 id="question-text">Question text will appear here</h2>
+                <div id="answers-container" class="answers-container">
+                    <!-- Answer options will be added dynamically -->
+                </div>
+            </div>
+
+            <button id="next-btn" class="btn primary-btn hidden">Next Question</button>
+        </section>
+
+        <!-- Results Screen -->
+        <section class="screen hidden" id="results-screen">
+            <h1 class="title">Quiz Complete!</h1>
+            <div class="results-container">
+                <div class="score-display">
+                    <h2>Your Score</h2>
+                    <div class="score-circle">
+                        <span id="final-score">0/10</span>
+                    </div>
+                    <p id="score-verdict">You're a Hokage! 🔥</p>
+                </div>
+                <div class="high-scores">
+                    <h3>High Scores</h3>
+                    <ul id="high-scores-list">
+                        <!-- High scores will be added dynamically -->
+                    </ul>
+                </div>
+            </div>
+            <div class="action-buttons">
+                <button id="retry-btn" class="btn secondary-btn">Try Again</button>
+                <button id="home-btn" class="btn primary-btn">Home</button>
+            </div>
+        </section>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls">
+        <button id="theme-toggle" class="control-btn" aria-label="Change Theme">
+            <span class="icon">🎭</span>
+        </button>
+        <button id="sound-toggle" class="control-btn" aria-label="Toggle Sound">
+            <span class="icon">🔊</span>
+        </button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Created with ❤ by Pry Uchiha</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/questions.js"></script>
+    <script src="js/themes.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
